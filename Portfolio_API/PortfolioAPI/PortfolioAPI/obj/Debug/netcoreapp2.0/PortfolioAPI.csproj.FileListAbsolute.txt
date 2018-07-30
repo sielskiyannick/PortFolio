@@ -1,0 +1,11 @@
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\bin\Debug\netcoreapp2.0\PortfolioAPI.deps.json
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\bin\Debug\netcoreapp2.0\PortfolioAPI.runtimeconfig.json
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\bin\Debug\netcoreapp2.0\PortfolioAPI.runtimeconfig.dev.json
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\bin\Debug\netcoreapp2.0\PortfolioAPI.dll
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\bin\Debug\netcoreapp2.0\PortfolioAPI.pdb
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.csprojAssemblyReference.cache
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.csproj.CoreCompileInputs.cache
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.AssemblyInfoInputs.cache
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.AssemblyInfo.cs
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.dll
+D:\Playground\Projects\Portfolio\PortFolio\Portfolio_API\PortfolioAPI\PortfolioAPI\obj\Debug\netcoreapp2.0\PortfolioAPI.pdb
