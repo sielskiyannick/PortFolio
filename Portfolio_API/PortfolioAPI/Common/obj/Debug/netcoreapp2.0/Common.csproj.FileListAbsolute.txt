@@ -1,0 +1,9 @@
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\bin\Debug\netcoreapp2.0\Common.deps.json
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\bin\Debug\netcoreapp2.0\Common.dll
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\bin\Debug\netcoreapp2.0\Common.pdb
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.csprojAssemblyReference.cache
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.dll
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Common\obj\Debug\netcoreapp2.0\Common.pdb
