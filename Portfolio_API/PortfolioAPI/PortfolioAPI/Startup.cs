@@ -1,9 +1,8 @@
-﻿using Data.EF.Contexts;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PortfolioAPI.Init;
 
 namespace PortfolioAPI
 {
@@ -19,8 +18,7 @@ namespace PortfolioAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-            services.AddDbContext<PortfolioContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PortfolioDatabase")));
+            DependencyManager.InitializeDependencies(services, Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

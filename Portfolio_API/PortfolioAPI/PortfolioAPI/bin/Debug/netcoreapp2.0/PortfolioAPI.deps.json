@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "0c8106e6e4496e4d217c3b47e5a334c01b030387"
+    "signature": "69814e964bf45a800b739aa24f69c1aa0c945d03"
   },
   "compilationOptions": {
     "defines": [
@@ -23,7 +23,11 @@
     ".NETCoreApp,Version=v2.0": {
       "PortfolioAPI/1.0.0": {
         "dependencies": {
+          "ApplicationServices": "1.0.0",
+          "Autofac": "4.8.1",
+          "Common": "1.0.0",
           "Data.EF": "1.0.0",
+          "Domain": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.NETCore.App": "2.0.0"
@@ -33,6 +37,18 @@
         },
         "compile": {
           "PortfolioAPI.dll": {}
+        }
+      },
+      "Autofac/4.8.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "System.ComponentModel": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3841,12 +3857,33 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "ApplicationServices/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Data.EF": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "ApplicationServices.dll": {}
+        },
+        "compile": {
+          "ApplicationServices.dll": {}
+        }
+      },
       "Common/1.0.0": {
         "runtime": {
           "Common.dll": {}
         },
         "compile": {
           "Common.dll": {}
+        }
+      },
+      "Contracts/1.0.0": {
+        "runtime": {
+          "Contracts.dll": {}
+        },
+        "compile": {
+          "Contracts.dll": {}
         }
       },
       "Data.EF/1.0.0": {
@@ -3865,7 +3902,8 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "Contracts": "1.0.0"
         },
         "runtime": {
           "Domain.dll": {}
@@ -4055,6 +4093,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/4.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
+      "path": "autofac/4.8.1",
+      "hashPath": "autofac.4.8.1.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -6079,7 +6124,17 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
+    "ApplicationServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

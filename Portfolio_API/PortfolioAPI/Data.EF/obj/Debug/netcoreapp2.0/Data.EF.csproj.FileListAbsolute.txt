@@ -14,3 +14,5 @@ D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\bin
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.csproj.CopyComplete
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.dll
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.pdb
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Contracts.dll
+D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Contracts.pdb

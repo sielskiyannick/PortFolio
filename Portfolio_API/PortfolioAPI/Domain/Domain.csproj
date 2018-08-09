@@ -6,10 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DTOs\" />
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
   </ItemGroup>
 
 </Project>

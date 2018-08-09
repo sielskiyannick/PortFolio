@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4776,6 +4789,21 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Data.EF": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationServices.dll": {}
+        }
+      },
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -4784,6 +4812,16 @@
         },
         "runtime": {
           "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
         }
       },
       "Data.EF/1.0.0": {
@@ -4806,7 +4844,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -4818,6 +4857,19 @@
     }
   },
   "libraries": {
+    "Autofac/4.8.1": {
+      "sha512": "aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
+      "type": "package",
+      "path": "autofac/4.8.1",
+      "files": [
+        "autofac.4.8.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -12802,10 +12854,20 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationServices/ApplicationServices.csproj",
+      "msbuildProject": "../ApplicationServices/ApplicationServices.csproj"
+    },
     "Common/1.0.0": {
       "type": "project",
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
     },
     "Data.EF/1.0.0": {
       "type": "project",
@@ -12820,7 +12882,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ApplicationServices >= 1.0.0",
+      "Autofac >= 4.8.1",
+      "Common >= 1.0.0",
       "Data.EF >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12857,8 +12923,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj"
+            },
+            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Common\\Common.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Common\\Common.csproj"
+            },
             "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj": {
               "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj"
+            },
+            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj"
             }
           }
         }
@@ -12872,6 +12947,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.8.1, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.9, )"
