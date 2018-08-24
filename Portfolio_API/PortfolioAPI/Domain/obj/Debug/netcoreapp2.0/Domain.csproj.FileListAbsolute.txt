@@ -6,4 +6,13 @@ D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Domain\obj\
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.AssemblyInfo.cs
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.dll
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.pdb
-D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.csprojAssemblyReference.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\bin\Debug\netcoreapp2.0\Domain.deps.json
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\bin\Debug\netcoreapp2.0\Domain.dll
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\bin\Debug\netcoreapp2.0\Domain.pdb
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.csprojAssemblyReference.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.csproj.CoreCompileInputs.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.AssemblyInfoInputs.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.AssemblyInfo.cs
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.dll
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.pdb
+D:\Playground\Projects\Portfolio\Branch01\Portfolio_API\PortfolioAPI\Domain\obj\Debug\netcoreapp2.0\Domain.csprojAssemblyReference.cache

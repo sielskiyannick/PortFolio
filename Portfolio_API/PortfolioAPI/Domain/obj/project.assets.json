@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\yannicks\\.nuget\\packages\\",
-      "outputPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\obj\\",
+      "outputPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

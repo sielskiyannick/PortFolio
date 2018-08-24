@@ -12,3 +12,17 @@ D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\bin
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.csproj.CopyComplete
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.dll
 D:\Playground\Projects\Portfolio\branch01\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.pdb
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Data.EF.deps.json
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Data.EF.runtimeconfig.json
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Data.EF.runtimeconfig.dev.json
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Data.EF.dll
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Data.EF.pdb
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Domain.dll
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\bin\Debug\netcoreapp2.0\Domain.pdb
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.csprojAssemblyReference.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.csproj.CoreCompileInputs.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.AssemblyInfoInputs.cache
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.AssemblyInfo.cs
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.csproj.CopyComplete
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.dll
+D:\Playground\Projects\test\Portfolio_API\PortfolioAPI\Data.EF\obj\Debug\netcoreapp2.0\Data.EF.pdb

@@ -3617,11 +3617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj",
+      "projectUniqueName": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj",
       "projectName": "ApplicationServices",
-      "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj",
+      "projectPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\ApplicationServices.csproj",
       "packagesPath": "C:\\Users\\yannicks\\.nuget\\packages\\",
-      "outputPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\obj\\",
+      "outputPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\ApplicationServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3641,14 +3641,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj"
+            "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj"
             },
-            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj": {
-              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj"
+            "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Data.EF\\Data.EF.csproj"
             },
-            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj"
+            "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Playground\\Projects\\Portfolio\\Branch01\\Portfolio_API\\PortfolioAPI\\Domain\\Domain.csproj"
             }
           }
         }
