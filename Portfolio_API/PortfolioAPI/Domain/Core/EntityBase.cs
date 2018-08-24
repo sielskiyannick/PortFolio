@@ -1,4 +1,4 @@
-﻿namespace Common.Core
+﻿namespace Domain.Core
 {
     public abstract class EntityBase<TId>
     {

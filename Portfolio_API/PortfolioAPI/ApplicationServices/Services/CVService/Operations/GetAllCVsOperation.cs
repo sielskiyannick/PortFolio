@@ -1,7 +1,9 @@
 ﻿using ApplicationServices.Mappers;
 using ApplicationServices.Services.CVService.Request;
 using ApplicationServices.Services.CVService.Response;
-using Domain.Interfaces.Repositories;
+using Data.EF.Repositories;
+using Entities = Domain.Entities;
+using DTOs = Contracts.DTOs;
 
 namespace ApplicationServices.Services.CVService.Operations
 {
@@ -13,10 +15,10 @@ namespace ApplicationServices.Services.CVService.Operations
     public class GetAllCVsOperation: IGetAllCVsOperation
     {
         private readonly ICVRepository _cvRepository;
-        private readonly IMapper<Domain.Entities.CV, Contracts.DTOs.CV> _cvMapper;
+        private readonly IMapper<Entities.CV, DTOs.CV> _cvMapper;
 
         public GetAllCVsOperation(ICVRepository cvRepository,
-            IMapper<Domain.Entities.CV, Contracts.DTOs.CV> cvMapper)
+            IMapper<Entities.CV, DTOs.CV> cvMapper)
         {
             _cvRepository = cvRepository;
             _cvMapper = cvMapper;

@@ -196,26 +196,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Common.dll": {}
-        }
-      },
-      "Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Contracts.dll": {}
-        }
       }
     }
   },
@@ -676,22 +656,10 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Common/1.0.0": {
-      "type": "project",
-      "path": "../Common/Common.csproj",
-      "msbuildProject": "../Common/Common.csproj"
-    },
-    "Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Contracts/Contracts.csproj",
-      "msbuildProject": "../Contracts/Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Common >= 1.0.0",
-      "Contracts >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -725,14 +693,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Common\\Common.csproj": {
-              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Common\\Common.csproj"
-            },
-            "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\Playground\\Projects\\Portfolio\\branch01\\Portfolio_API\\PortfolioAPI\\Contracts\\Contracts.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

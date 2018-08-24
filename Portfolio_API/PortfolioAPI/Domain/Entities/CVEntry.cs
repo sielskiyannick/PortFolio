@@ -1,13 +1,11 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations.Schema;
-using Common.Core;
+using Domain.Core;
 
 namespace Domain.Entities
 {
-    [Table("CVEntries")]
     public class CVEntry : EntityBase<Guid>
     {
         public string Title { get; set; }
-        public CV CV { get; set; }
+        public Guid CVId { get; set; }
     }
 }

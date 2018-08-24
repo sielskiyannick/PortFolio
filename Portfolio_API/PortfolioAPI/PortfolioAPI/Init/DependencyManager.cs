@@ -1,9 +1,8 @@
 ﻿using ApplicationServices.Mappers;
 using ApplicationServices.Services.CVService;
 using ApplicationServices.Services.CVService.Operations;
-using Data.EF.Contexts;
+using Data.EF.Contexts.Portfolio;
 using Data.EF.Repositories;
-using Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +20,7 @@ namespace PortfolioAPI.Init
             RegisterRepositories(services);
             RegisterServiceOperations(services);
             RegisterMappers(services);
+            RegisterServices(services);
         }
 
         private static void RegisterWebComponents(IServiceCollection services)
@@ -41,12 +41,18 @@ namespace PortfolioAPI.Init
         private static void RegisterServiceOperations(IServiceCollection services)
         {
             services.AddTransient<IGetAllCVsOperation, GetAllCVsOperation>();
+            services.AddTransient<IGetCvByIdOperation, GetCvByIdOperation>();
         }
 
         private static void RegisterMappers(IServiceCollection services)
         {
             services.AddTransient<IMapper<Entity.CV, Dto.CV>, CVMapper>();
             services.AddTransient<IMapper<Entity.CVEntry, Dto.CVEntry>, CVEntryMapper>();
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            services.AddTransient<ICVService, CVService>();
         }
     }
 }

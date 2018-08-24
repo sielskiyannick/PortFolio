@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Contracts.DTOs
 {
     public class CV
     {
-        public IEnumerable<CVEntry> CVEntries { get; set; }
+        public IEnumerable<Guid> CVEntryIds { get; set; }
     }
 }

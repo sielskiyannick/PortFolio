@@ -1,11 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using Data.EF.Contexts;
+using Data.EF.Contexts.Portfolio;
 using Domain.Entities;
-using Domain.Interfaces.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace Data.EF.Repositories
 {
+    public interface ICVRepository
+    {
+        IEnumerable<CV> GetAllCVs();
+        CV GetById(Guid id);
+    }
+
     public class CVRepository : ICVRepository
     {
         private readonly PortfolioContext _portfolioContext;
@@ -17,7 +24,16 @@ namespace Data.EF.Repositories
 
         public IEnumerable<CV> GetAllCVs()
         {
-            return _portfolioContext.CVs.ToArray();
+            return _portfolioContext.CVs
+                .Include(cv => cv.CVEntries)
+                .ToArray();
+        }
+
+        public CV GetById(Guid id)
+        {
+            return _portfolioContext.CVs
+                .Include(cv => cv.CVEntries)
+                .FirstOrDefault(cv => cv.Id == id);
         }
     }
 }

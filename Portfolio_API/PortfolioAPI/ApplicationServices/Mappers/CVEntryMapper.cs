@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Entity = Domain.Entities;
 using Dto = Contracts.DTOs;
 
@@ -13,6 +11,7 @@ namespace ApplicationServices.Mappers
             return new Dto.CVEntry()
             {
                 Title = entity.Title,
+                CVId = entity.CVId,
             };
         }
 
